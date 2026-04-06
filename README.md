@@ -103,4 +103,4 @@ This module is licensed under the [LGPL-3.0 License](LICENSE).
 - Ashmiya Aziza Ahmed
 - Aardra Jayanthan 
 - Mohsin Bhojani
-Built with love using [Odoo](https://www.odoo.com).
+- Built with love using [Odoo](https://www.odoo.com).
