@@ -100,7 +100,7 @@ This module is licensed under the [LGPL-3.0 License](LICENSE).
 
 ## Author
 
-Ashmiya Aziza Ahmed
-Mohsin Bhojani
-Aardra Jayanthan
+Ashmiya Aziza Ahmed,
+Mohsin Bhojani,
+Aardra Jayanthan, and
 Built with love using [Odoo](https://www.odoo.com).
