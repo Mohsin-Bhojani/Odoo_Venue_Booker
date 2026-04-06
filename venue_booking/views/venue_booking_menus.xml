@@ -1,0 +1,12 @@
+<odoo>
+    <menuitem id="venue_booking_menu_root" name="Venue Booking">
+        <menuitem id="venue_booking_first_level_menu" name="Bookings">
+            <menuitem id="venue_booking_booking_menu_action" action="venue_booking_booking_action" />
+            <menuitem id="venue_booking_venue_menu_action" action="venue_booking_venue_action" />
+        </menuitem>
+
+        <menuitem id="venue_booking_second_level_menu" name="Settings">
+            <menuitem id="venue_booking_amenity_menu_action" action="venue_booking_amenity_action" />
+        </menuitem>
+    </menuitem>
+</odoo>

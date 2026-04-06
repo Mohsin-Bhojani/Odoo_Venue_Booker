@@ -1,0 +1,4 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_venue_booking_amenity,access_venue_booking_amenity,model_venue_booking_amenity,base.group_user,1,1,1,1
+access_venue_booking_venue,access_venue_booking_venue,model_venue_booking_venue,base.group_user,1,1,1,1
+access_venue_booking_booking,access_venue_booking_booking,model_venue_booking_booking,base.group_user,1,1,1,1

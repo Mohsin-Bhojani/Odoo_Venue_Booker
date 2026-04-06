@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="seq_venue_booking_booking" model="ir.sequence">
+        <field name="name">Venue Booking Reference</field>
+        <field name="code">venue.booking.booking</field>
+        <field name="prefix">BK/</field>
+        <field name="padding">4</field>
+        <field name="number_next">1</field>
+        <field name="number_increment">1</field>
+    </record>
+
+    <record id="amenity_wifi" model="venue.booking.amenity">
+        <field name="name">Wi-Fi</field>
+        <field name="icon">fa-wifi</field>
+    </record>
+
+    <record id="amenity_parking" model="venue.booking.amenity">
+        <field name="name">Parking</field>
+        <field name="icon">fa-car</field>
+    </record>
+
+    <record id="amenity_projector" model="venue.booking.amenity">
+        <field name="name">Projector</field>
+        <field name="icon">fa-desktop</field>
+    </record>
+
+    <record id="amenity_catering" model="venue.booking.amenity">
+        <field name="name">Catering</field>
+        <field name="icon">fa-cutlery</field>
+    </record>
+
+    <record id="amenity_ac" model="venue.booking.amenity">
+        <field name="name">Air Conditioning</field>
+        <field name="icon">fa-snowflake-o</field>
+    </record>
+
+    <record id="venue_grand_hall" model="venue.booking.venue">
+        <field name="name">Grand Hall</field>
+        <field name="city">Dubai</field>
+        <field name="capacity">500</field>
+        <field name="hourly_rate">500.0</field>
+        <field name="amenity_ids" eval="[(4, ref('amenity_wifi')), (4, ref('amenity_parking')), (4, ref('amenity_projector')), (4, ref('amenity_catering')), (4, ref('amenity_ac'))]" />
+    </record>
+
+    <record id="venue_boardroom" model="venue.booking.venue">
+        <field name="name">Executive Boardroom</field>
+        <field name="city">Dubai</field>
+        <field name="capacity">20</field>
+        <field name="hourly_rate">150.0</field>
+        <field name="amenity_ids" eval="[(4, ref('amenity_wifi')), (4, ref('amenity_projector')), (4, ref('amenity_ac'))]" />
+    </record>
+
+    <record id="venue_rooftop" model="venue.booking.venue">
+        <field name="name">Rooftop Terrace</field>
+        <field name="city">Abu Dhabi</field>
+        <field name="capacity">100</field>
+        <field name="hourly_rate">250.0</field>
+        <field name="amenity_ids" eval="[(4, ref('amenity_catering')), (4, ref('amenity_parking'))]" />
+    </record>
+
+</odoo>
