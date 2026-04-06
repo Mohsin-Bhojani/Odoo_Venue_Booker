@@ -1,4 +1,4 @@
-#Venue Booking — Odoo Module
+Venue Booking — Odoo Module
 
 A clean Odoo module for managing venue reservations, bookings, and calendar scheduling.
 
