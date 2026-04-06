@@ -8,8 +8,8 @@ A clean Odoo module for managing venue reservations, bookings, and calendar sche
 
 - **Venue Management** — Define venues with capacity, hourly rates, currency, and amenities
 - **Booking Workflow** — Draft → Confirmed → Checked In state machine with contextual action buttons
-- ** Calendar View** — Monthly calendar with per-venue colour coding
-- ** Amenities** — Reusable amenity tags attached to venues
+- Calendar View — Monthly calendar with per-venue colour coding
+- Amenities — Reusable amenity tags attached to venues
 
 ---
 
